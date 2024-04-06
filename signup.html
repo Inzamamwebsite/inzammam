@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #ccc;
+        }
+        .container{
+           max-width: 900px;
+           margin:  0 auto;
+           margin-top: 10%;
+        }
+        .apply_box{
+            max-width: 600px;
+            padding: 20px;
+            background-color: white;
+            margin: 0 auto;
+            margin-top: 50px;
+            box-shadow: 4px 3px 5px rgb(1, 1, 1,0.1);
+            border-radius: 10px;
+            text-align: center;
+            font-size: larger;
+        }
+        @media (max-width : 460px) {
+            .textarea_control{
+                grid-column: 1 / span 1;
+            }
+        }
+      
+            
+    
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1>SIGN UP</h1>
+       <form action="" >
+       <div class="form_container">
+        <div class="form_controls">
+            <label for="first name">First name -</label>
+            <input 
+            id="first name"
+            name="first name"
+            placeholder="enter first name..."
+            />
+        </div>
+        <div class="form_controls">
+            <label for="last name">Last name -</label>
+            <input 
+            id="last name"
+            name="last name"
+            placeholder="enter last name..."
+            />
+        </div>
+        <div class="form_controls">
+            <label for="">Date of birth -</label>
+            <input 
+            id="date"
+            name="date "
+           type="date"
+            />
+        </div>
+        <div class="form_controls">
+            <label for="email">Email -</label>
+            <input 
+            type="email"
+            id="email"
+            name="email"
+            placeholder="enter email address..."
+            />
+        </div>
+        <div class="form_controls">
+            <label for="email">Email password -</label>
+            <input 
+            type="password"
+            id="email"
+            name="email"
+            placeholder="enter email password..."
+            />
+        </div>
+        
+        <div class="form_controls">
+            <label for="select">select categaries -</label>
+            <select name="select" id="select">
+                <option value="">select categaries</option>
+                <option value="sub"> Subscriptions</option>
+                <option value="vip">VIP Pass</option>
+                <option value="free">Free</option>
+            </select>
+        </div>
+        <div class="form_controls">
+            <label for="address">address</label>
+            <div><textarea name="address" id="address" cols="25" rows="1" placeholder="enter your address"></textarea></div>
+        </div>
+        <div class="form_controls">
+            <label for="city">City -</label>
+            <select name="cit" id="city">
+                <option value="">choose city</option>
+                <option value="delhi">Delhi</option>
+                <option value="Up">Uttar Pradesh</option>
+                <option value="mp">Madhya Pradesh</option>
+                <option value="hariyana">Hariyana</option>
+                <option value="uttrakhanda">Uttrakhanda</option>
+                <option value="bihar">Bihar</option>
+                <option value="maxico">Maxico</option>
+                <option value="australia">Australia</option>
+                <option value="tamil naddu">Tamil Naddu</option>
+                <option value="srilankha">Sri Lankha</option>
+                <option value="Bengluru">Bengluru</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Rajisthan">Rajisthan</option>
+                <option value="Gujrat">Gujrat</option>
+                <option value="Ranchi">Ranchi</option>
+            </select> -
+                <select name="select" id="select">
+                    <option value="">choose pin code</option>
+                    <option value="110096">110096</option>
+                    <option value="110011">110011</option>
+                    <option value="110022">110022</option>
+                    <option value="110033">110033</option>
+                    <option value="110044">110044</option>
+                    <option value="110055">110055</option>
+                    <option value="110066">110066</option>
+                    <option value="110077">110077</option>
+                    <option value="110088">110088</option>
+                    <option value="110099">110099</option>
+                    <option value="110012">110012</option>
+                    <option value="110034">110034</option>
+                    <option value="110056">110056</option>
+                    <option value="110078">110078</option>
+                    <option value="110090">110090</option>
+                </select>
+        </div>
+        <div class="buttton_container">
+            <label for="submit"><button> <a href="login.html">submit</a></button> </label>
+        </div>
+
+       </div>
+       </form>
+    </div>
+</div>
+</body>
+</html>
